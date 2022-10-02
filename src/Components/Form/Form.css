@@ -1,0 +1,140 @@
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  min-height: 429px;
+  background: #1583ad;
+  flex-direction: row;
+  text-align: center;
+  padding: 50px 0 100px;
+}
+
+form {
+  padding: 0 20px 0 20px;
+  width: auto;
+  min-height: 500px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 20px;
+  background-color: #fff;
+  box-shadow: 5px 5px 5px 3px rgba(35, 35, 35, 0.2);
+}
+
+form input,
+form textarea {
+  width: 500px;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  margin: 10px;
+  background-color: rgb(243, 243, 243);
+  font-size: 17px;
+}
+
+form :first-child {
+  margin-top: 30px;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #1583ad;
+  box-shadow: 0 1px 1px rgba(229, 103, 23, 0.075) inset, 0 0 8px #1583ad;
+  outline: 0 none;
+}
+
+form textarea {
+  resize: none;
+  min-height: 150px;
+  width: 500px;
+}
+
+form input[type="submit"] {
+  width: 200px;
+  padding: 18px;
+  color: white;
+  background-color: #1583ad;
+}
+
+.texts-contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.texts-contacto label {
+  font-size: 25px;
+  color: #ccc;
+}
+
+.texts-contacto h3 {
+  font-size: 40px;
+  color: white;
+  width: 600px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    min-height: 429px;
+    background: linear-gradient(to right, #8e2de2, #4a00e0);
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  form {
+    width: 80%;
+
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 5px 5px 5px 3px rgba(35, 35, 35, 0.2);
+  }
+
+  form input,
+  form textarea {
+    width: 80%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin: 10px;
+    background-color: rgb(243, 243, 243);
+    font-size: 17px;
+  }
+
+  form textarea {
+    height: 20px;
+  }
+
+  .texts-contacto {
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .texts-contacto label {
+    font-size: 25px;
+    color: #ccc;
+  }
+
+  .texts-contacto h3 {
+    font-size: 40px;
+    color: white;
+    width: 80%;
+  }
+}

@@ -1,0 +1,47 @@
+.contact-nav-content{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    background-color: var(--mainColor);
+
+
+}
+
+.flex-content-nav{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 1rem;
+    margin-right: 30px;
+    
+}
+
+.icons{
+    color: #fff;
+    font-size: 23px;
+    padding: 5px;
+    font-weight: bolder;
+    transition: all 500ms;
+    cursor: pointer;
+}
+
+.text-navContact{
+    color: #fff;
+    font-weight: bolder;
+    padding: 5px;
+    transition: all 500ms;
+    cursor: pointer;
+    
+}
+
+.icons:hover,
+.text-navContact:hover{
+    color: #8ed1fc;
+}
+
+@media only screen and (max-width: 1024px){
+    .contact-nav-content{
+        display: none;
+    }
+}

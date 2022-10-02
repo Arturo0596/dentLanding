@@ -1,0 +1,141 @@
+.inst-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+    align-items: center;
+}
+
+.inst-content img{
+    width: 100%;
+    height: 600px;
+
+
+}
+
+.inst-content span{
+    display: block;
+    position: absolute;
+    background-color: #78AFBD;
+    color: white;
+    width: 98.2%;
+    font-size: 40px;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+}
+
+
+
+.inst-cards{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+
+
+}
+
+.cards-row{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.inst-cards img{
+    width: 80%;
+}
+
+
+.inst-cards p{
+    width: 30vw;
+    text-align: justify;
+    font-weight: 300;
+}
+
+.inst-cards .inst-texts{
+    margin-bottom: 50px ;
+    color: #0A2140;
+}
+
+.inst-h3{
+    font-size: 30px;
+}
+
+
+
+
+@media only screen and (max-width: 1024px){
+
+    .inst-content{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        text-align: center;
+        align-items: center;
+        overflow-y: hidden;
+    }
+
+    .inst-content span {
+        width: 95%;
+        font-size: 30px;
+        display: block;
+
+    }
+
+    .inst-map{
+        width: 100%;
+        display: flex;
+
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cards-row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .inst-cards{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+
+
+    }
+
+    .inst-cards img{
+        width: 80%;
+    }
+
+    .inst-cards p{
+        width: 80vw;
+        text-align: justify;
+        font-weight: 300;
+    }
+
+    .inst-cards .inst-texts{
+        margin-bottom: 0px ;
+        color: #0A2140;
+    }
+
+    .inst-h3{
+        font-size: 30px;
+    }
+
+}
+
+
+
+

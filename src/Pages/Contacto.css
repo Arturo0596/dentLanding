@@ -1,0 +1,104 @@
+.contact-content {
+  display: flex;
+  min-width: 100%;
+  height: auto;
+  flex-direction: column;
+}
+
+.contact-card {
+  display: flex;
+  width: 700px;
+  min-height: 400px;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 15px;
+}
+
+textarea {
+  resize: none;
+  width: 400px;
+  min-height: 100px;
+}
+
+.contact-card input,
+.contact-card textarea {
+  width: 50%;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+}
+
+.btn {
+  margin-top: 10px;
+  width: 20%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+.infoText {
+  font-size: 30px;
+}
+
+.infoPhone {
+  font-size: 32px;
+  font-weight: bold;
+  color: #1683ad;
+}
+
+.contatoInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 70px;
+  gap: 3rem;
+}
+
+.infoMapForm {
+  display: flex;
+  padding-bottom: 50px;
+  align-content: center;
+  width: 100%;
+  height: 600px;
+  justify-content: space-evenly;
+}
+
+.contactInfoFlex {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactInfoFlex span {
+  font-size: 18px;
+  gap: 5rem;
+  margin-bottom: 5px;
+}
+
+.spanGrande {
+  font-size: 35px !important;
+  font-weight: bolder;
+  margin-top: 15px;
+  color: #1583ad;
+}
+
+.map-content {
+  width: 800px;
+  height: 500px;
+}
+
+@media only screen and (max-width: 1024px) {
+  .contatoInfo {
+    text-align: center;
+  }
+
+  .infoMapForm {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .map-content {
+    width: 80%;
+  }
+}
